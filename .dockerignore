@@ -1,0 +1,32 @@
+# Exclude node_modules, as they will be installed during the build.
+node_modules
+
+# Exclude npm debug logs.
+npm-debug.log
+
+# Exclude local development and test files.
+.devcontainer/
+.git/
+.github/
+.husky/
+.vscode/
+tests/
+scripts/
+
+# Exclude miscellaneous configuration and documentation files.
+.eslint.json
+.nvmrc
+.prettierignore
+.prettierrc.json
+.vercelignore
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+LICENSE
+SECURITY.md
+codecov.yml
+eslint.config.mjs
+jest.bench.config.js
+jest.config.js
+jest.e2e.config.js
+readme.md
+vercel.json
