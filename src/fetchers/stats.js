@@ -124,7 +124,7 @@ const statsFetcher = async ({
   while (hasNextPage) {
     const variables = {
       login: username,
-      first: 100,
+      // first: 100,
       after: endCursor,
       includeMergedPullRequests,
       includeDiscussions,
