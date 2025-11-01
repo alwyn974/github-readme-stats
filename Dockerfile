@@ -9,7 +9,7 @@ COPY package.json package-lock.json ./
 
 # Install dependencies using npm ci for a clean, reproducible build.
 # This command also sets the NODE_ENV to production to avoid installing devDependencies.
-RUN npm ci --omit=dev
+RUN npm ci
 
 # --- Production Stage ---
 # This stage is responsible for running the application.
